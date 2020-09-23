@@ -1,0 +1,26 @@
+.block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 100vh;
+  width: 90%;
+  border: 2px solid #64ffda;
+  border-left: none;
+  border-right: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 48px;
+  border-radius: 12px;
+}
+.title {
+  margin: 0;
+  padding: 0;
+  margin-left: 30px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}

@@ -1,0 +1,48 @@
+.block {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 40px;
+  padding-bottom: 10px;
+  position: relative;
+  z-index: 0;
+}
+.block::after {
+  content: '';
+  position: absolute;
+  display: block;
+  background-color: #64ffda;
+  height: 2px;
+  width: 45%;
+  bottom: -10px;
+  left: 15px;
+  z-index: 0;
+}
+.tabLink {
+  display: block;
+  color: #fff;
+  background-color: transparent;
+  border: 1.5px solid #64ffda;
+  border-radius: 10px;
+  text-align: center;
+  padding: 6px 10px;
+  width: 100px;
+  font-weight: 700;
+  transition: .2s;
+  outline: none;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.tabLink:hover {
+  box-shadow: inset 0 0 7px 2px rgba(72, 255, 194, 0.5);
+}
+.active {
+  background-color: #64ffda;
+  color: #263238;
+}
+.active:hover {
+  box-shadow: none;
+}
